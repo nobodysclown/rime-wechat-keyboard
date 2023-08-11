@@ -21,7 +21,6 @@ patch:
     label_color: 0xcac9c8
     text_color: 0x424242
   "style/color_scheme": "wechat-keyboard"
-  "style/display_tray_icon": false
   "style/font_point": 12
   "style/horizontal": true
   "style/inline_preedit": true
