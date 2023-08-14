@@ -10,8 +10,8 @@ preset_color_schemes/wechat-keyboard
 
 自定义ico:
 ```
-  icon: "ico-cn.ico"
-  ascii_icon: "ico-en.ico"
+icon: "ico-cn.ico"
+ascii_icon: "ico-en.ico"
 ```
 
 original: https://gist.github.com/zsakvo/fff6e4859265d5d629439d5ccb553f8a
