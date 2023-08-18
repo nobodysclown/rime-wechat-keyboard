@@ -2,11 +2,10 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Fri Aug 11 20:43:21 2023"
+  modified_time: "Fri Aug 18 13:22:09 2023"
   rime_version: 1.8.5
 patch:
   "preset_color_schemes/wechat-keyboard":
-    name: "wechat-keyboard"
     author: zsakvo
     back_color: 0xFFFFFF
     border_color: 0xDDDDDD
@@ -19,18 +18,16 @@ patch:
     hilited_label_color: 0xFFFFFF
     hilited_text_color: 0x424242
     label_color: 0xcac9c8
+    name: "wechat-keyboard"
     text_color: 0x424242
+
+  style:
+    color_scheme: "wechat-keyboard"
+    display_tray_icon: false
+    enhanced_position: false
+    font_point: 12
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 10
+    layout: {border: 1, corner_radius: 5, hilite_padding: 5, hilite_spacing: 5, margin: 5, round_corner: 5}
   "style/color_scheme": "wechat-keyboard"
-  "style/font_point": 12
-  "style/horizontal": true
-  "style/inline_preedit": true
-  "style/label_font_point": 10
-  "style/layout/border": 1
-  "style/layout/corner_radius": 5
-  "style/layout/hilite_padding": 5
-  "style/layout/hilite_padding_x": 5
-  "style/layout/hilite_padding_y": 5
-  "style/layout/hilite_spacing": 5
-  "style/layout/margin_x": 5
-  "style/layout/margin_y": 5
-  "style/layout/round_corner": 5
