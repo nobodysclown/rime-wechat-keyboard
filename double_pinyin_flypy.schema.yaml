@@ -18,6 +18,7 @@ schema:
   name: 小鹤双拼
   version: "1"
   icon: "ico-cn.ico"
+  ascii_icon: "ico-en.ico"
   author:
     - Dvel
   description: |
