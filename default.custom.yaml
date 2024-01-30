@@ -1,0 +1,13 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Aug 11 10:54:30 2023"
+  rime_version: 1.8.5
+patch:
+  schema_list:
+    - {schema: double_pinyin_flypy}
+  ascii_composer/switch_key:
+    Shift_L: commit_code
+    Shift_R: commit_code
+    Caps_Lock: clear
