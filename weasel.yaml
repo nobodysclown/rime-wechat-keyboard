@@ -9,12 +9,6 @@
 # 部分选项需要将 Weasel 更新至最新开发版才能生效
 config_version: "2024-03-02"
 
-# [app_options]
-# 针对特定应用的设置
-app_options:
-  firefox.exe:
-    inline_preedit: true # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
-
 # [global settings]
 show_notifications: true                   # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
 show_notifications_time: 1200              # 通知显示的时间，单位 ms
@@ -35,7 +29,7 @@ style:
   comment_font_point: 10                   # 注释字体字号，不设定 fallback 到 font_point
 
   inline_preedit: true                     # 行内显示预编辑区：true；false
-  preedit_type: preview                    # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
   
   fullscreen: false                        # 候选窗口全屏显示：true；false
   vertical_text: false                     # 竖排文本：true；false
