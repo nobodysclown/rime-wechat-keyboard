@@ -24,8 +24,8 @@ global_ascii: false                        # 切换为 ascii 模式时，是否�
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: wechat-keyboard             # 默认配色方案
-  color_scheme_dark: wechat-keyboard        # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  color_scheme: wechat-keyboard            # 默认配色方案
+  color_scheme_dark: wechat-keyboard       # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
 
   font_face: "Segoe UI Emoji:30:39, Segoe UI Emoji:23:23, Segoe UI Emoji:2a:2a, Segoe UI Emoji:fe0f:fe0f, Segoe UI Emoji:20e3:20e3, Microsoft YaHei, SF Pro, Segoe UI Emoji, Noto Color Emoji"
   label_font_face: "Microsoft YaHei"       # 标签字体
@@ -34,8 +34,8 @@ style:
   label_font_point: 10                     # 标签字体字号，不设定 fallback 到 font_point
   comment_font_point: 10                   # 注释字体字号，不设定 fallback 到 font_point
 
-  inline_preedit: true                    # 行内显示预编辑区：true；false
-  preedit_type: preview                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+  inline_preedit: true                     # 行内显示预编辑区：true；false
+  preedit_type: preview                    # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
   
   fullscreen: false                        # 候选窗口全屏显示：true；false
   vertical_text: false                     # 竖排文本：true；false
@@ -59,24 +59,23 @@ style:
 
   layout:
     align_type: center                     # 标签、候选文字、注解文字之间的相对对齐方式：top ; center ; bottom
-    max_height: 0                        # 候选框最大高度，horizontal 布局如宽超此尺寸则换行显示候选，设置为 0 不启用此功能
+    max_height: 0                          # 候选框最大高度，horizontal 布局如宽超此尺寸则换行显示候选，设置为 0 不启用此功能
     max_width: 0                           # 候选框最大宽度，文本竖排模式下如高度超此尺寸则换列显示候选，设置为 0 不启用此功能
     min_height: 0                          # 候选框最小高度
-    min_width: 0                         # 候选框最小宽度
+    min_width: 0                           # 候选框最小宽度
     border_width: 1                        # 边框宽度；又名 border
     margin: 5                              # 主体元素和候选框的左右边距；为负值时，不显示候选框
-    candidate_spacing: 5                  # 候选项之间的间距
+    candidate_spacing: 5                   # 候选项之间的间距
     hilite_spacing: 5                      # 候选项和相应标签的间距
     hilite_padding: 5                      # 高亮区域和内部文字的间距，影响高亮区域大小
     corner_radius: 6                       # 候选窗口圆角半径
     round_corner: 6                        # 候选背景色块圆角半径，又名 hilited_corner_radius
-    type: horizontal                         # 布局设置，效果和 style 下的设置相同：horizontal（横向）；vertical（竖向） ; vertical_text（竖排文本） ; vertical+fullscreen（全屏） ; horizontal+fullscreen（横向全屏）
-
+    type: horizontal                       # 布局设置，效果和 style 下的设置相同：horizontal（横向）；vertical（竖向） ; vertical_text（竖排文本） ; vertical+fullscreen（全屏） ; horizontal+fullscreen（横向全屏）
 
 # [End of <style>]
 
 preset_color_schemes:
-
+  # wechat-keyboard 配色方案
   wechat-keyboard:
     name: "wechat-keyboard"
     author: zsakvo
