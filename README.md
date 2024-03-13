@@ -1,7 +1,7 @@
 # rime
 wechat-keyboard
 
-![wechat-keyboard](https://raw.githubusercontent.com/h6fYe34KFSiH/weasel.custom.yaml/main/wechat-keyboard.png)
+![wechat-keyboard](https://raw.githubusercontent.com/nobodysclown/rime-wechat-keyboard/main/wechat-keyboard.png)
 
 预览图位置：
 ```
