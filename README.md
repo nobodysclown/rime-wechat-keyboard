@@ -1,14 +1,14 @@
-# weasel.custom.yaml
-preset_color_schemes/wechat-keyboard
+# rime
+wechat-keyboard
 
 ![wechat-keyboard](https://raw.githubusercontent.com/h6fYe34KFSiH/weasel.custom.yaml/main/wechat-keyboard.png)
 
 预览图位置：
 ```
-程序文件夹/date/preview
+程序文件夹/data/preview
 ```
 
-自定义ico:
+自定义ico(修改 xxx.schema.yaml 输入方案):
 ```
 icon: "ico-cn.ico"
 ascii_icon: "ico-en.ico"
