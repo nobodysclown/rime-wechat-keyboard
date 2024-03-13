@@ -5,7 +5,7 @@ wechat-keyboard
 
 预览图位置：
 ```
-程序文件夹/data/preview
+/rime/preview/
 ```
 
 自定义ico(修改 xxx.schema.yaml 输入方案):
