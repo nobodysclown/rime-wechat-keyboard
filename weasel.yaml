@@ -1,13 +1,8 @@
 # Weasel settings
 # encoding: utf-8
 
-# 感谢 @[Mirtle](https://github.com/mirtlecn) 整理
-# Rime 定制指南 <https://github.com/rime/home/wiki/CustomizationGuide#定製指南>
-# Weasel 定制文档 <https://github.com/rime/weasel/wiki/Weasel-定製化>
-# Weasel 字体设定 <https://github.com/rime/weasel/wiki/字體設定>
-
 # 部分选项需要将 Weasel 更新至最新开发版才能生效
-config_version: "2024-03-02"
+config_version: "2024-03-14"
 
 # [global settings]
 show_notifications: true                   # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
@@ -26,7 +21,7 @@ style:
   comment_font_face: "Microsoft YaHei"     # 注释字体
   font_point: 12                           # 全局字体字号
   label_font_point: 10                     # 标签字体字号，不设定 fallback 到 font_point
-  comment_font_point: 10                   # 注释字体字号，不设定 fallback 到 font_point
+  comment_font_point: 9                    # 注释字体字号，不设定 fallback 到 font_point
 
   inline_preedit: true                     # 行内显示预编辑区：true；false
   preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
