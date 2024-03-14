@@ -4,6 +4,7 @@ customization:
   generator: "Weasel::UIStyleSettings"
   modified_time: "Wed Mar 13 15:12:29 2024"
   rime_version: 1.8.5
+
 patch:
   "style/color_scheme": "wechat-keyboard"
   "preset_color_schemes/wechat-keyboard":
