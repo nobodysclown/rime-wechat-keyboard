@@ -1,0 +1,47 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.15.0.0
+  generator: "Weasel::UIStyleSettings"
+  modified_time: "Wed Mar 13 15:12:29 2024"
+  rime_version: 1.8.5
+patch:
+  "style/color_scheme": "wechat-keyboard"
+  "preset_color_schemes/wechat-keyboard":
+    name: "wechat-keyboard"
+    author: zsakvo
+    back_color: 0xFFFFFF
+    border_color: 0xDDDDDD
+    candidate_text_color: 0x525252
+    comment_text_color: 0x999999
+    hilited_back_color: 0xDDDDDD
+    hilited_candidate_back_color: 0x75B100
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x999999
+    hilited_label_color: 0xFFFFFF
+    hilited_text_color: 0x424242
+    label_color: 0x828282
+    text_color: 0x424242
+
+  style:
+    color_scheme: wechat-keyboard          # 默认配色方案
+    display_tray_icon: false               # 托盘显示独立于语言栏的额外图标
+    enhanced_position: false               # 无法定位候选框时，在窗口左上角显示候选框
+    label_format: "%s"                     # 标签字符：例如 %s. 效果为 1. 2. 3.
+    font_point: 12                         # 全局字体
+    label_font_point: 10                   # 标签字体
+    comment_font_point: 9                  # 注释字体
+    horizontal: true                       # 候选项水平排列
+    inline_preedit: true                   # 行内显示预编辑区
+    preedit_type: composition              # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
+    candidate_abbreviate_length: 10        # 候选项略写，超过此数字则用省略号代替
+
+  layout: 
+    align_type: center                     # 标签、候选文字、注解文字之间的相对对齐方式：top ; center ; bottom
+    border: 1                              # 边框宽度
+    margin: 5                              # 主体元素和候选框的左右边距；为负值时，不显示候选框
+    candidate_spacing: 5                   # 候选项之间的间距
+    hilite_padding: 5                      # 高亮区域和内部文字的间距，影响高亮区域大小
+    hilite_spacing: 5                      # 候选项和相应标签的间距
+    corner_radius: 6                       # 候选窗口圆角半径
+    round_corner: 6                        # 候选背景色块圆角半径                     
+    type: horizontal                       # 布局设置
