@@ -20,7 +20,6 @@ patch:
     hilited_text_color: 0x424242
     label_color: 0x828282
     text_color: 0x424242
-
   style:
     color_scheme: "wechat-keyboard"
     display_tray_icon: false
@@ -32,7 +31,5 @@ patch:
     horizontal: true
     inline_preedit: true
     preedit_type: composition
-
     layout: {align_type: center, border: 1, margin: 5, candidate_spacing: 5, hilite_padding: 5, hilite_spacing: 5, corner_radius: 6, round_corner: 6}
-
   "style/color_scheme": "wechat-keyboard"
