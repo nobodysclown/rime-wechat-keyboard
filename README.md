@@ -1,7 +1,7 @@
 # rime
 ![wechat-keyboard](https://raw.githubusercontent.com/nobodysclown/rime-wechat-keyboard/main/wechat-keyboard.png)
 
-替换 `【小狼毫】用户文件夹` 下的 `weasel.custom.yaml` 。
+替换 `【小狼毫】用户文件夹` 下的 `weasel.custom.yaml` 
 
 
 ---
