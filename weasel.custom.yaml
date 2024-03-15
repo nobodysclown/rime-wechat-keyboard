@@ -22,8 +22,8 @@ patch:
     text_color: 0x424242
   style:
     color_scheme: "wechat-keyboard"
-    display_tray_icon: false
-    enhanced_position: false
+    display_tray_icon: true
+    enhanced_position: true
     label_format: "%s"
     font_point: 12
     label_font_point: 10
