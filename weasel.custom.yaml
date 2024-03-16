@@ -26,6 +26,7 @@ patch:
     label_format: "%s"
     font_point: 12
     label_font_point: 10
+    comment_font_point: 9
     horizontal: true
     inline_preedit: true
     layout: {align_type: center, border: 1, candidate_spacing: 5, corner_radius: 6, hilite_padding: 5, hilite_spacing: 5, margin: 5, round_corner: 6}
